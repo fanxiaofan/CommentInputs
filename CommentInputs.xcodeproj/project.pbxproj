@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		091EEA0622D497940018C58E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091EEA0522D497940018C58E /* AppDelegate.swift */; };
-		091EEA0822D497940018C58E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091EEA0722D497940018C58E /* ViewController.swift */; };
 		091EEA0B22D497940018C58E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091EEA0922D497940018C58E /* Main.storyboard */; };
 		091EEA0D22D4979A0018C58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091EEA0C22D4979A0018C58E /* Assets.xcassets */; };
 		091EEA1022D4979A0018C58E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091EEA0E22D4979A0018C58E /* LaunchScreen.storyboard */; };
@@ -20,12 +19,13 @@
 		091EEA2622D4987D0018C58E /* FFYEmojiConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091EEA2222D4987D0018C58E /* FFYEmojiConstant.swift */; };
 		091EEA2722D4987D0018C58E /* FFYEmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091EEA2322D4987D0018C58E /* FFYEmojiCollectionViewCell.swift */; };
 		091EEA2822D4987D0018C58E /* FFYEmojiKeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091EEA2422D4987D0018C58E /* FFYEmojiKeyBoard.swift */; };
+		091EEA2B22D49F710018C58E /* TextFieldInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091EEA2922D49F710018C58E /* TextFieldInputViewController.swift */; };
+		091EEA2C22D49F710018C58E /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091EEA2A22D49F710018C58E /* UserListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		091EEA0222D497940018C58E /* CommentInputs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommentInputs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		091EEA0522D497940018C58E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		091EEA0722D497940018C58E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		091EEA0A22D497940018C58E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		091EEA0C22D4979A0018C58E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		091EEA0F22D4979A0018C58E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +38,8 @@
 		091EEA2222D4987D0018C58E /* FFYEmojiConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFYEmojiConstant.swift; sourceTree = "<group>"; };
 		091EEA2322D4987D0018C58E /* FFYEmojiCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFYEmojiCollectionViewCell.swift; sourceTree = "<group>"; };
 		091EEA2422D4987D0018C58E /* FFYEmojiKeyBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFYEmojiKeyBoard.swift; sourceTree = "<group>"; };
+		091EEA2922D49F710018C58E /* TextFieldInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldInputViewController.swift; sourceTree = "<group>"; };
+		091EEA2A22D49F710018C58E /* UserListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +75,8 @@
 				091EEA2022D498590018C58E /* EmojiKeyboard */,
 				091EEA1722D497F40018C58E /* InputController */,
 				091EEA0522D497940018C58E /* AppDelegate.swift */,
-				091EEA0722D497940018C58E /* ViewController.swift */,
+				091EEA2922D49F710018C58E /* TextFieldInputViewController.swift */,
+				091EEA2A22D49F710018C58E /* UserListViewController.swift */,
 				091EEA0922D497940018C58E /* Main.storyboard */,
 				091EEA0C22D4979A0018C58E /* Assets.xcassets */,
 				091EEA0E22D4979A0018C58E /* LaunchScreen.storyboard */,
@@ -175,10 +178,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				091EEA0822D497940018C58E /* ViewController.swift in Sources */,
+				091EEA2B22D49F710018C58E /* TextFieldInputViewController.swift in Sources */,
 				091EEA1E22D498500018C58E /* FFYCommonKeyboardItem.swift in Sources */,
 				091EEA2522D4987D0018C58E /* FFYEmojiScrollView.swift in Sources */,
 				091EEA2822D4987D0018C58E /* FFYEmojiKeyBoard.swift in Sources */,
+				091EEA2C22D49F710018C58E /* UserListViewController.swift in Sources */,
 				091EEA1D22D498500018C58E /* FFYCommonTextInputView.swift in Sources */,
 				091EEA2622D4987D0018C58E /* FFYEmojiConstant.swift in Sources */,
 				091EEA1C22D498500018C58E /* FFYExtensions.swift in Sources */,
